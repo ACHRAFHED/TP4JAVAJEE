@@ -38,17 +38,18 @@ Créer une application de e-commerce basée sur les micro services :
 - **Spring Cloud Starter OpenFeign** : Simplifie l'intégration de clients REST déclaratifs dans une application Spring Cloud.
 
 ## Consul : Introduction ##
-<img width="929" alt="consul2" src="https://github.com/ACHRAFHED/TP4JAVAJEE/assets/102471232/de7f4b79-2faf-4fa4-ab96-5890879aa9e5">
+<img width="929" alt="consul2" src="https://github.com/ACHRAFHED/TP4JAVAJEE/assets/102471232/36026082-d16b-4fac-9423-f017f6962a73">
 Consul est un outil et une plateforme conçus pour découvrir et configurer des services dans des environnements de centre de données modernes et dynamiques. Développé par HashiCorp, Consul offre des fonctionnalités telles que la découverte de services, la vérification de l'état de santé et le stockage de clés-valeurs. Il permet aux applications de localiser et de communiquer entre elles de manière efficace, favorisant le développement de systèmes distribués résilients et évolutifs. Consul prend en charge diverses intégrations et est fréquemment utilisé en conjonction avec des technologies telles que Spring Cloud pour améliorer la gestion des microservices.
 Le lancement de consul via la commande : `consul agent -server -bootstrap-expect=1 -data-dir=consul-data -ui -bind=<Your ip address>
 ## Vault : Introduction ##
 
 Vault, également créé par HashiCorp, est un outil complet et extensible pour la gestion de secrets et la protection d'informations sensibles. Il offre un moyen sécurisé de stocker et de gérer l'accès à des données confidentielles telles que des mots de passe, des clés API et d'autres informations sensibles. Vault propose des fonctionnalités avancées telles que la rotation automatique des secrets et l'intégration transparente avec différents systèmes d'authentification. C'est une solution polyvalente largement utilisée dans les environnements modernes où la sécurité des données est une préoccupation majeure.
 Le lancement de Vault : 
-<img width="857" alt="vault" src="https://github.com/ACHRAFHED/TP4JAVAJEE/assets/102471232/caa92549-95c9-42eb-abce-e5a78c315e60">
-<img width="905" alt="vault11" src="https://github.com/ACHRAFHED/TP4JAVAJEE/assets/102471232/f25ec804-2888-4714-bfaa-147e34688231">
-<img width="919" alt="vault12" src="https://github.com/ACHRAFHED/TP4JAVAJEE/assets/102471232/d7f311e1-edda-44cf-a66c-e9572cb34058">
-<img width="910" alt="vault13" src="https://github.com/ACHRAFHED/TP4JAVAJEE/assets/102471232/d7b56b81-cd24-46a3-a4f3-d50a42eed27b">
+<img width="857" alt="vault" src="https://github.com/ACHRAFHED/TP4JAVAJEE/assets/102471232/d1fcb6eb-e569-437d-8fc7-04b55171bd38">
+<img width="905" alt="vault11" src="https://github.com/ACHRAFHED/TP4JAVAJEE/assets/102471232/b110ee46-44a2-4cf6-809b-676ff2f3af95">
+<img width="919" alt="vault12" src="https://github.com/ACHRAFHED/TP4JAVAJEE/assets/102471232/bc3ed000-d812-4427-9ebf-40ff0f7c5ae3">
+<img width="910" alt="vault13" src="https://github.com/ACHRAFHED/TP4JAVAJEE/assets/102471232/b1dedffe-830e-446d-bfb4-776eaa261344">
+
 
 
 
